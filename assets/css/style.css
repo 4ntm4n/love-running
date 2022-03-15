@@ -23,22 +23,27 @@ h1, h2 {
 
 #logo {
     float: left;
+    font-size: 280%;
     background: yellow;
 }
 
-nav {
-    display: block;
-    background: pink;
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    white-space: nowrap;
     display: inline-block;
     float: right;
-    list-style-type: none;
+    direction: rt1;
 }
 
-nav li {
+#menu li {
     float: right;
-    margin: 10px;
-}
-
-header {
-    overflow: hidden;
+    background: pink;
+    list-style-type: none;
+    margin-right: 30px;
+    direction: 1tr;
+    display: block;
+    
 }
